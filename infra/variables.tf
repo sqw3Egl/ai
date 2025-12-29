@@ -16,11 +16,6 @@ variable "environment" {
   default     = "dev"
 }
 
-variable "tenant_id" {
-  description = "Azure tenant ID"
-  type        = string
-}
-
 variable "tags" {
   description = "Tags for resources"
   type        = map(string)
